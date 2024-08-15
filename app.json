@@ -27,7 +27,15 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-asset",
+        {
+          "assets": [
+            "./assets/images/HeroImg.png"
+          ]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
